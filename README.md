@@ -1,5 +1,5 @@
 # Analysis of static and dynamic batching algorithms for graph neural networks
-Message Passing Graph Neural Network with Edge Updates in Jraph.
+This github has been anonymized for the purpose of the ICML review of the paper by the same name. This code repository contains the software to perform the batching, profiling experiments, parsing of experiments, and plotting.
 
 This code implements several GNN models. It implements the [SchNet](https://arxiv.org/pdf/1712.06113) model. It implements a message passing model with edge updates, MPEU, graph neural network with the architecture described in this [article](https://arxiv.org/pdf/1806.03146.pdf). There is also the option to run the [PaiNN](https://proceedings.mlr.press/v139/schutt21a.html) model.
 

@@ -73,7 +73,7 @@ sample_err_file_cancelled = sample_err_file + '\nCANCELLED DUE TO TIME LIMIT'
 sample_err_file_cancelled_nothing_else = '\nCANCELLED DUE TO TIME LIMIT'
 
 
-PATHS_TEXT_FILE = '/home/dts/Documents/hu/jraph_MPEU/tests/data/fake_profile_paths.txt'
+PATHS_TEXT_FILE = 'jraph_MPEU/tests/data/fake_profile_paths.txt'
 
 class ParseProfileExperiments(unittest.TestCase):
     """Unit and integration test functions in models.py."""
@@ -90,8 +90,6 @@ class ParseProfileExperiments(unittest.TestCase):
             paths_misbehaving
         )
 
-    #TODO(dts): figure out what happens to the CSV writer if some fields
-    # are missing ideally, I would like to write nan to those fields.
     def test_get_recompile_and_timing_info(self):
         # Write the sample text to file:
         with tempfile.TemporaryDirectory() as tmp_dir:

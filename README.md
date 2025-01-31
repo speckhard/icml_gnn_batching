@@ -27,7 +27,7 @@ The timing measurements are contained in the train.py file.
 The statistics about the graphs in the batch before and after padding can be found in the stats_before_padding branch. The plotting scripts for the plots in the paper can also be found in this branch, in the scripts/plotting folder.
 
 # Raw data of the timing experiments.
-The timing experiments were created with the jraph_MPEU/create_profile_experiments.py script. The experiments were parsed with the jraph_MPEU/parse_profile_experiments.py script or the jraph_MPEU/parse_longer_experiments.py script. The resulting parsed CSVs are contained in the batch_data/ folder.
+The timing experiments were created with the jraph_MPEU/create_profile_experiments.py script. The experiments were parsed with the jraph_MPEU/parse_profile_experiments.py script or the jraph_MPEU/parse_longer_experiments.py script. The resulting parsed CSVs are contained in the data/ folder.
 
 ## Padding algorithms
 The padding algorithms are found in the jraph_MPEU/utils.py directory.
